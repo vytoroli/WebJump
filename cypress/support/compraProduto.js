@@ -5,12 +5,14 @@ class compraProduto {
         cy.contains('span','Shop New Yoga').click()
         cy.contains('a','Overnight Duffle ').click()
         cy.get('#product-addtocart-button').click()
+        cy.wait(3000)
 
     }
 
     finalizar_compra() {
         cy.visit('/')
-        cy.contains('span','My Cart').click()
+        cy.get('.showcart').click()
+       // cy.contains('span','My Cart').click()
         cy.get('#top-cart-btn-checkout').click()
         cy.get('#C5HDOK8').type('Teste')
         cy.get('#XCF5UCC').type('6146 Honey Bluff Parkway')
