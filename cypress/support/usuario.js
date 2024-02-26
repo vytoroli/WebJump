@@ -11,9 +11,7 @@ function gerarString() {
   string += numeros.charAt(indiceNumero);
   return string;
 }
-
 const usuaruiox = gerarString();
-
 
 class usuario {
 

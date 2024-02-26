@@ -19,7 +19,6 @@ describe('Cadastro usuário, login e compra completa', () => {
           usuario.login()
           compraProduto.produto_no_carrinho()
           compraProduto.finalizar_compra()
-      })
+     })
      
-
 })
