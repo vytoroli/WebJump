@@ -34,6 +34,7 @@ class usuario {
         cy.get('#pass').type('Autoteste@223')
         cy.get('#send2').click()
         //cy.contains('span','Welcome, Teste Automatizado!')
+        //Comente
     }
 
 
