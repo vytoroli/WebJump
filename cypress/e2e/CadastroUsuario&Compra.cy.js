@@ -1,5 +1,6 @@
 import usuario from "../support/usuario";
 import compraProduto from "../support/compraProduto";
+
 describe('Cadastro usuário, login e compra completa', () => {
 
      beforeEach(() => {
