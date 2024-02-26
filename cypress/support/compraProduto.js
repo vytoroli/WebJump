@@ -24,7 +24,7 @@ class compraProduto {
         cy.get('[name="telephone"]').type('(555) 229-3326')
         cy.contains('td','Table Rate').click()
         cy.contains('span','Next').click()
-        cy.wait(4000)
+        cy.wait(6000)
         cy.contains('span','Place Order').click()
         cy.contains('span','Thank you for your purchase!').should('be.visible')
     }
