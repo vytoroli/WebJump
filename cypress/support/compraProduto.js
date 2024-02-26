@@ -15,7 +15,7 @@ class compraProduto {
         cy.get('.showcart').click()
         cy.wait(5000)
         cy.contains('span','Proceed to Checkout').click()
-        cy.wait(6000)
+        cy.wait(7000)
         cy.get('[name="company"]').type('Teste')
         cy.get('[name="street[0]"]').type('6146 Honey Bluff Parkway')
         cy.get('[name="region_id"]').select('Michigan')
